@@ -1,0 +1,19 @@
+mern-auth-app
+├── backend
+│   ├── controllers
+│   ├── models
+│   ├── routes
+│   ├── middleware
+│   ├── .env
+│   └── server.js
+├── frontend
+│   ├── public
+│   ├── src
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── services
+│   ├── .env
+│   └── package.json
+└── README.md
