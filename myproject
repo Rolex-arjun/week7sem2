@@ -1,0 +1,31 @@
+Root Directory: social-media-miniwebsite
+
+Backend Folder: backend
+controllers/:
+ Contains all backend controllers for handling authentication, user, and post logic.
+models/:
+Holds MongoDB models/schemas for users and posts.
+routes/:
+Includes route definitions for user authentication and posts.
+middleware/:
+Contains middleware like authentication using JWT.
+server.js:
+Entry point for the backend, sets up the Express server and connects to MongoDB.
+.env:
+Stores environment variables such as database URI and JWT secret.
+package.json:
+Manages dependencies and scripts for the backend.
+Frontend Folder: frontend
+public/:
+Contains the base HTML template and static assets.
+src/:
+components/:
+Reusable components like headers, footers, and forms.
+pages/:
+Pages for registration, login, and home feed.
+App.js:
+Main component for routing different pages.
+index.js:
+Entry point for the React application.
+package.json:
+Manages dependencies and scripts for the frontend.
