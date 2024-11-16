@@ -1,19 +1,43 @@
-mern-auth-app
-├── backend
-│   ├── controllers
-│   ├── models
-│   ├── routes
-│   ├── middleware
-│   ├── .env
-│   └── server.js
-├── frontend
-│   ├── public
-│   ├── src
-│   │   ├── components
-│   │   ├── pages
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── services
-│   ├── .env
-│   └── package.json
-└── README.md
+Root Directory: mern-auth-app
+This is the main directory containing both backend and frontend folders.
+
+Backend Folder: backend
+
+controllers/:
+Handles all the business logic, such as user authentication and profile updates.
+models/:
+Contains MongoDB schemas for users and other entities.
+routes/:
+Defines API routes for authentication and other functionalities.
+middleware/:
+Middleware for functions like JWT authentication and request validation.
+.env:
+Stores environment variables such as database URIs, JWT secrets, etc.
+server.js:
+The main entry point for starting the backend server using Node.js and Express.
+
+Frontend Folder: frontend
+
+public/:
+Contains the base HTML file and other static assets.
+src/:
+components/:
+Holds reusable React components like Navbar, Form, etc.
+pages/:
+Contains React pages such as Register, Login, and Dashboard.
+services/:
+Utility functions for handling API requests using Axios.
+App.js:
+Main component for managing application routing.
+index.js:
+Entry point for rendering the React app.
+.env:
+Stores environment variables for frontend configurations.
+package.json:
+Manages dependencies and scripts for the frontend.
+
+
+
+
+
+
