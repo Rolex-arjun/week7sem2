@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Signup Form -->
+        <form id="signup-form" class="form">
+            <h2>Signup</h2>
+            <input type="text" id="signup-username" placeholder="Username" required>
+            <input type="email" id="signup-email" placeholder="Email" required>
+            <input type="password" id="signup-password" placeholder="Password" required>
+            <button type="submit">Signup</button>
+        </form>
+
+        <!-- Login Form -->
+        <form id="login-form" class="form hidden">
+            <h2>Login</h2>
+            <input type="email" id="login-email" placeholder="Email" required>
+            <input type="password" id="login-password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+
+        <!-- Change Password Form -->
+        <form id="change-password-form" class="form hidden">
+            <h2>Change Password</h2>
+            <input type="password" id="current-password" placeholder="Current Password" required>
+            <input type="password" id="new-password" placeholder="New Password" required>
+            <button type="submit">Change Password</button>
+        </form>
+
+        <!-- Logout Button -->
+        <div id="logout-section" class="hidden">
+            <button id="logout-button">Logout</button>
+        </div>
+
+        <!-- Toggle between forms -->
+        <div class="toggle-links">
+            <button id="show-signup">Signup</button>
+            <button id="show-login">Login</button>
+            <button id="show-change-password">Change Password</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
